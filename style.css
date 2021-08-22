@@ -1,0 +1,132 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0px;
+    padding:0px;
+}
+
+.text-highlight{
+    color: #5f27cd;
+}
+.top-headline{
+
+    font-size: 50px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding: 1% 3%;
+
+}
+.one-third-width{
+    width: 29%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    /* border: 1px solid black; */
+    box-shadow: 10px 10px 30px lightgrey;
+    border-radius: 15px;
+    background-color: white;
+
+}
+.half-width img{
+    width: 100%;
+    
+}
+.one-third-width img{
+    width: 100%;
+}
+.gray-text{
+    color:gray;
+}
+.blue-button{
+    color: white;
+    background-image: linear-gradient(50deg, rgb(2, 178, 223), blue);
+    border: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px lightgrey;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+section{
+    height: 600px;
+    /* border:1px solid black; */
+    margin-top: 1px;
+}
+.center-text{
+    text-align: center;
+}
+
+.third-section{
+    background-color: whitesmoke;
+    height: 700px;
+    padding: 2% 5%;
+}
+
+.full-width{
+    width:100%;
+    padding: 50px;
+}
+.full-width img{
+    width: 100%;
+}
+
+#center-button{
+    margin:0 auto;
+    display:block;
+}
+#centering-div{
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    /* border: 5px solid red;   */
+    height: 600px; 
+}
+#white-text{
+    color:white;
+
+}
+
+.bottom-section{
+    background-image: url("./images/shapes/violetBG.png");
+    background-position: center;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    
+}
+
+.orange-button{
+    color: white;
+    background-image: linear-gradient(50deg, orange, salmon);
+    border: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.social-area{
+    text-align: center;
+}
+.social-area img{
+    width: 2%;
+    padding: 5px 10px;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
